@@ -47,7 +47,6 @@ function Header() {
           <SupervisedUserCircle fontSize="large" />
         </div>
       </div>
-
       <div className="header-right w-1/5">
         <div className="header-info flex flex-row-reverse">
           {/* <h4>Maen Dassin</h4> */}
