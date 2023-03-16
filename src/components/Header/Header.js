@@ -1,4 +1,5 @@
 import IconButton from "@material-ui/core/IconButton";
+// import { AiFillHome } from "react-icons/ai";
 import {
   ExpandMore,
   Flag,
@@ -14,6 +15,7 @@ import {
 function Header() {
   return (
     <div className="header sticky flex bg-white border-b border-solid border-gray-300 top-0 z-100 py-2 px-2">
+      {/* ANCHOR Header left */}
       <div className="header-left flex items-center w-1/5">
         <img
           className="header-logo flex h-10 w-10"
@@ -30,6 +32,7 @@ function Header() {
         </div>
       </div>
 
+      {/* ANCHOR Header center */}
       <div className="header-center flex flex-1 justify-center mx-2 py-2 w-3/5">
         <div className="header-page flex items-center py-0 px-8 cursor-pointer">
           <Home fontSize="large" />
@@ -38,15 +41,17 @@ function Header() {
           <Flag fontSize="large" />
         </div>
         <div className="header-page flex items-center py-0 px-8 cursor-pointer">
-          <SubscriptionsOutlined fontSize="large" />
+          <StorefrontOutlined fontSize="large" />
         </div>
         <div className="header-page flex items-center py-0 px-8 cursor-pointer">
-          <StorefrontOutlined fontSize="large" />
+          <SubscriptionsOutlined fontSize="large" />
         </div>
         <div className="header-page flex items-center py-0 px-8 cursor-pointer">
           <SupervisedUserCircle fontSize="large" />
         </div>
       </div>
+
+      {/* ANCHOR Header right */}
       <div className="header-right w-1/5">
         <div className="header-info flex flex-row-reverse">
           {/* <h4>Maen Dassin</h4> */}
