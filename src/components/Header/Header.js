@@ -1,4 +1,4 @@
-import IconButton from "@material-ui/core/IconButton";
+import IconButton from "@mui/material/IconButton";
 // import { AiFillHome } from "react-icons/ai";
 import {
   ExpandMore,
@@ -10,7 +10,7 @@ import {
   StorefrontOutlined,
   SubscriptionsOutlined,
   SupervisedUserCircle,
-} from "@material-ui/icons";
+} from "@mui/icons-material";
 
 function Header() {
   return (
@@ -55,13 +55,13 @@ function Header() {
       <div className="header-right w-1/5">
         <div className="header-info flex flex-row-reverse">
           {/* <h4>Maen Dassin</h4> */}
-          <IconButton>
+          <IconButton size="large">
             <Forum />
           </IconButton>
-          <IconButton>
+          <IconButton size="large">
             <NotificationsActive />
           </IconButton>
-          <IconButton>
+          <IconButton size="large">
             <ExpandMore />
           </IconButton>
         </div>
