@@ -1,9 +1,9 @@
 import Header from "./components/Header/Header";
-// import "./index.css";
+import "./App.css";
 
 function App() {
   return (
-    <div className="app">
+    <div className="app font-helvetica-neue">
       <Header />
       <div className="app__body"></div>
     </div>
