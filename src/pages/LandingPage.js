@@ -1,11 +1,11 @@
 import Header from "../components/Header/Header";
-import Body from "../components/Body/Body";
+import Content from "../components/Content/Content";
 
 function LandingPage() {
   return (
     <>
       <Header />
-      <Body />
+      <Content />
     </>
   );
 }

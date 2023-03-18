@@ -19,4 +19,7 @@ module.exports = {
   },
   variants: {},
   plugins: [],
+  corePlugins: {
+    preflight: true,
+  },
 };

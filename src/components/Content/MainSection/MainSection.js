@@ -1,4 +1,4 @@
 function MainSection() {
-  return <>Hello</>;
+  return <></>;
 }
 export default MainSection;

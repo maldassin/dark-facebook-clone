@@ -17,7 +17,7 @@ function Header() {
     // ANCHOR Header
     <div className='header z-100 h-100vh sticky inset-0 flex justify-between border-b border-solid border-y-trueGray-700 bg-trueGray-800 py-0'>
       {/* ANCHOR Header left */}
-      <div className='header__left flex w-1/5 justify-between self-center h-10'>
+      <div className='header__left flex h-10 w-1/5 justify-between self-center'>
         <img
           className='header__left__logo ml-4 flex h-10 w-10'
           alt='Facebook logo'
@@ -48,7 +48,7 @@ function Header() {
            hover:bg-trueGray-700'>
             <Flag
               className='self-center 
-              text-trueGray-400'
+              text-trueGray-400 hover:text-blue-500'
               fontSize='large'
             />
           </div>
@@ -56,7 +56,7 @@ function Header() {
             className='header__center_option flex h-full w-full cursor-pointer justify-center rounded-t-xl
            hover:bg-trueGray-700'>
             <SubscriptionsOutlined
-              className='self-center text-trueGray-400'
+              className='self-center text-trueGray-400 hover:text-blue-500'
               fontSize='large'
             />
           </div>
@@ -64,7 +64,7 @@ function Header() {
             className='header__center_option flex h-full w-full cursor-pointer justify-center rounded-t-xl 
 					hover:bg-trueGray-700'>
             <StorefrontOutlined
-              className='self-center text-trueGray-400'
+              className='self-center text-trueGray-400 hover:text-blue-500'
               fontSize='large'
             />
           </div>
@@ -72,7 +72,7 @@ function Header() {
             className='header__center_option flex h-full w-full cursor-pointer justify-center rounded-t-xl
            hover:bg-trueGray-700'>
             <SupervisedUserCircle
-              className='self-center text-trueGray-400'
+              className='self-center text-trueGray-400 hover:text-blue-500'
               fontSize='large'
             />
           </div>
@@ -97,8 +97,14 @@ function Header() {
               <Notifications fontSize='medium' className='text-slate-200' />
             </IconButton>
           </div>
-          <div className='header_right_info__avatar flex flex-col items-center text-slate-200'>
-            <Avatar src={"../../assets/images/Me2.jpg"} />
+          <div className='header_right_info__avatar flex flex-col items-center text-slate-200 py-1'>
+            <Avatar
+              src={"../../assets/images/Me2.jpg/"}
+              style={{
+                width: "38px",
+                height: "38px",
+              }}
+            />
             <p className='text-sm'>Maen Dassin</p>
           </div>
         </div>

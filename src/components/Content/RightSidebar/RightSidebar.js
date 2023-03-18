@@ -1,4 +1,4 @@
 function RightSidebar() {
-  return <>Hello</>;
+  return <></>;
 }
 export default RightSidebar;
