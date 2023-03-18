@@ -9,7 +9,8 @@ module.exports = {
         "trueGray-700": "#3A3B3C",
         "trueGray-500": "#797B7E",
         "trueGray-400": "#a2a5aa",
-        "coolGray-400": "#a2a5aa",
+        "coolGray-400": "#9ca7a1",
+        "coolGray-200": "#e4e6eb",
       },
       fontFamily: {
         "helvetica-neue": ["Helvetica Neue", "sans-serif"],

@@ -1,13 +1,10 @@
-import Header from "./components/Header/Header";
 import "./App.css";
+import LandingPage from "./pages/LandingPage";
 
 function App() {
   return (
-    <div className="app font-sans h-screen bg-trueGray-900">
-      <Header/>
-      <div className="app__body">
-        <div className="body"></div>
-      </div>
+    <div className='app font-sans'>
+      <LandingPage />
     </div>
   );
 }
