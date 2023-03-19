@@ -32,9 +32,16 @@ function Header() {
         </div>
       </div>
 
-      {/* ANCHOR Header center */}
       <div className='header__center flex flex-1 grow justify-center'>
         <div className='header__center__options flex w-4/6'>
+
+
+
+
+
+
+        
+      {/* ANCHOR Header center */}
           <div
             className='header__center_option flex h-full w-full cursor-pointer justify-center
            rounded-t-xl border-b-2 border-blue-500 hover:bg-trueGray-700'>
