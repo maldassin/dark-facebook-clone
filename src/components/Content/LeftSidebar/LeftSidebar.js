@@ -1,7 +1,6 @@
-import React from "react";
 import { Avatar } from "@mui/material";
-import SidebarRow from "./sidebarRow";
-import sidebarData from "./sidebarData";
+import SidebarRow from "./SidebarRow";
+import LeftSidebarData from "./LeftSidebarData";
 
 function LeftSidebar() {
   return (
@@ -17,7 +16,7 @@ function LeftSidebar() {
         />
         <p className='ml-4 text-base font-bold text-white'>Maen Dassin</p>
       </div>
-      {sidebarData.map((data, index) => (
+      {LeftSidebarData.map((data, index) => (
         <SidebarRow
           key={index}
           icon={data.icon}

@@ -1,7 +1,7 @@
 import { MoreHoriz, Search, VideoCall } from "@mui/icons-material";
 import { Stack } from "@mui/material";
 import Badge, { badgeClasses } from "@mui/material/Badge";
-import friendsData from "./Friends.json";
+import friendsData from "./RightSidebarData.json";
 
 function RightSidebar() {
   return (
