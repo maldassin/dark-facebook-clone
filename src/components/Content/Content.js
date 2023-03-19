@@ -2,13 +2,13 @@ import LeftSidebar from "./LeftSidebar/LeftSidebar";
 import RightSidebar from "./RightSidebar/RightSidebar";
 import MainSection from "./MainSection/MainSection";
 
-function Body() {
+function Content() {
   return (
-    <>
+    <div className='flex flex-row pt-2 pl-2'>
       <LeftSidebar />
       <MainSection />
       <RightSidebar />
-    </>
+    </div>
   );
 }
-export default Body;
+export default Content;

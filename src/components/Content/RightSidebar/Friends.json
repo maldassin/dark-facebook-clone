@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Maen Dassin",
+        "status" : "online",
+        "image": "./Me2.jpg"
+    },
+    {
+        "name": "Clayton Hodge",
+        "status" : "online",
+        "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cmFuZG9tJTIwcGVvcGxlfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "name": "Edie Young",
+        "status" : "online",
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmFuZG9tJTIwcGVvcGxlfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=1000&q=60"
+    },
+    {
+        "name": "Harvey Carter",
+        "status" : "online",
+        "image": "https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cmFuZG9tJTIwcGVvcGxlfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=1000&q=60"
+    },
+    {
+        "name": "Rosa Richards",
+        "status" : "online",
+        "image": "https://images.unsplash.com/photo-1530785602389-07594beb8b73?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cmFuZG9tJTIwcGVvcGxlfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=1000&q=60"
+    },
+    {
+        "name": "Ruth Melendez",
+        "status" : "online",
+        "image": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfDF8MHx8&auto=format&fit=crop&w=1000&q=60"
+    },
+    {
+        "name": "George Vincent",
+        "status" : "online",
+        "image": "https://images.unsplash.com/photo-1499996860823-5214fcc65f8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfDF8MHx8&auto=format&fit=crop&w=1000&q=60"
+    },
+    {
+        "name": "Ana Carney",
+        "status" : "online",
+        "image": "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "name": "Rafael Hodge",
+        "status" : "online",
+        "image": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cmFuZG9tJTIwcGVvcGxlfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "name": "Kacie Chapman",
+        "status" : "offline",
+        "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "name": "Callum Bishop",
+        "status" : "offline",
+        "image": "https://images.unsplash.com/photo-1496360166961-10a51d5f367a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "name": "Maisie Jimenez",
+        "status" : "offline",
+        "image": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHJhbmRvbSUyMHBlb3BsZXxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60"
+    }
+]

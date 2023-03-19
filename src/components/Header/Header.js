@@ -48,7 +48,7 @@ function Header() {
            hover:bg-trueGray-700'>
             <Flag
               className='self-center 
-              text-trueGray-400 hover:text-blue-500'
+              text-trueGray-400'
               fontSize='large'
             />
           </div>
@@ -56,7 +56,7 @@ function Header() {
             className='header__center_option flex h-full w-full cursor-pointer justify-center rounded-t-xl
            hover:bg-trueGray-700'>
             <SubscriptionsOutlined
-              className='self-center text-trueGray-400 hover:text-blue-500'
+              className='self-center text-trueGray-400'
               fontSize='large'
             />
           </div>
@@ -64,7 +64,7 @@ function Header() {
             className='header__center_option flex h-full w-full cursor-pointer justify-center rounded-t-xl 
 					hover:bg-trueGray-700'>
             <StorefrontOutlined
-              className='self-center text-trueGray-400 hover:text-blue-500'
+              className='self-center text-trueGray-400'
               fontSize='large'
             />
           </div>
@@ -72,7 +72,7 @@ function Header() {
             className='header__center_option flex h-full w-full cursor-pointer justify-center rounded-t-xl
            hover:bg-trueGray-700'>
             <SupervisedUserCircle
-              className='self-center text-trueGray-400 hover:text-blue-500'
+              className='self-center text-trueGray-400'
               fontSize='large'
             />
           </div>
@@ -81,31 +81,37 @@ function Header() {
 
       {/* ANCHOR Header right */}
       <div className='header__right flex w-1/6 flex-row-reverse'>
-        <div className='header__right__info flex w-full justify-evenly'>
-          <div className='test self-center rounded-full bg-trueGray-700 outline-none'>
+        <div className='header__right__info flex w-full justify-end pt-1 pr-2'>
+          <div
+            className='test mr-1 self-center rounded-full bg-trueGray-700
+          outline-none hover:bg-trueGray-500'>
             <IconButton size='medium'>
-              <Apps fontSize='medium' className='text-slate-200' />
+              <Apps fontSize='medium' className='text-slate-200 ' />
             </IconButton>
           </div>
-          <div className='test self-center rounded-full bg-trueGray-700 outline-none'>
+          <div
+            className='test mx-1 self-center rounded-full bg-trueGray-700
+          outline-none hover:bg-trueGray-500'>
             <IconButton size='medium'>
               <Forum fontSize='medium' className='text-slate-200' />
             </IconButton>
           </div>
-          <div className='test self-center rounded-full bg-trueGray-700 outline-none'>
+          <div
+            className='test ml-1 mr-3 self-center rounded-full bg-trueGray-700
+          outline-none hover:bg-trueGray-500'>
             <IconButton size='medium'>
               <Notifications fontSize='medium' className='text-slate-200' />
             </IconButton>
           </div>
-          <div className='header_right_info__avatar flex flex-col items-center text-slate-200 py-1'>
+          <div className='header_right_info__avatar mr-2 flex cursor-pointer flex-col items-center py-1 text-slate-200'>
             <Avatar
-              src={"../../assets/images/Me2.jpg/"}
+              src={"./Me2.jpg"}
               style={{
-                width: "38px",
-                height: "38px",
+                width: "40px",
+                height: "40px",
               }}
             />
-            <p className='text-sm'>Maen Dassin</p>
+            {/* <p className='text-sm'>Maen Dassin</p> */}
           </div>
         </div>
       </div>

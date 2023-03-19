@@ -9,22 +9,23 @@ import {
   History,
   SportsEsports,
   TurnedIn,
-  AccountCircle
+  AccountCircle,
+  Payment,
+  LiveTv,
+  CalendarMonth,
+  Message,
 } from "@mui/icons-material";
-import { Avatar } from "@mui/material";
 
 function LeftSidebar() {
   return (
-    <div className='sidebar__left flex w-1/4 flex-col overflow-hidden pt-3 pl-3'>
+    <div className='sidebar__left flex w-1/5 flex-col border-r-2 border-trueGray-700'>
       <div className='flex cursor-pointer items-center rounded-l-xl py-4 pl-3 text-slate-200 hover:bg-trueGray-700'>
-        <AccountCircle
-          // src='../../../assets/images/Me2.jpg'
-          // style={{
-          //   width: "28px",
-          //   height: "28px",
-          // }}
-        />
+        <AccountCircle />
         <p className='pl-3 text-sm font-medium text-white'>Maen Dassin</p>
+      </div>
+      <div className='flex cursor-pointer items-center rounded-l-xl py-4 pl-3 text-slate-200 hover:bg-trueGray-700'>
+        <Message />
+        <p className='pl-3 text-sm font-medium text-white'>Messenger</p>
       </div>
       <div className='flex cursor-pointer items-center rounded-l-xl py-4 pl-3 text-slate-200 hover:bg-trueGray-700'>
         <Flag fontSize='medium' />
@@ -67,16 +68,16 @@ function LeftSidebar() {
         <p className='pl-3 text-sm font-medium text-white'>Saved</p>
       </div>
       <div className='flex cursor-pointer items-center rounded-l-xl py-4 pl-3 text-slate-200 hover:bg-trueGray-700'>
-        <TurnedIn fontSize='medium' />
-        <p className='pl-3 text-sm font-medium text-white'>Saved</p>
+        <Payment fontSize='medium' />
+        <p className='pl-3 text-sm font-medium text-white'>Payments</p>
       </div>
       <div className='flex cursor-pointer items-center rounded-l-xl py-4 pl-3 text-slate-200 hover:bg-trueGray-700'>
-        <TurnedIn fontSize='medium' />
-        <p className='pl-3 text-sm font-medium text-white'>Saved</p>
+        <LiveTv fontSize='medium' />
+        <p className='pl-3 text-sm font-medium text-white'>Watch</p>
       </div>
       <div className='flex cursor-pointer items-center rounded-l-xl py-4 pl-3 text-slate-200 hover:bg-trueGray-700'>
-        <TurnedIn fontSize='medium' />
-        <p className='pl-3 text-sm font-medium text-white'>Saved</p>
+        <CalendarMonth fontSize='medium' />
+        <p className='pl-3 text-sm font-medium text-white'>Events</p>
       </div>
     </div>
   );
