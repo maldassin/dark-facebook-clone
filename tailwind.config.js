@@ -9,7 +9,9 @@ module.exports = {
         "trueGray-700": "#3A3B3C",
         "trueGray-500": "#797B7E",
         "trueGray-400": "#a2a5aa",
+        "trueGray-300": "#b0b3b8",
         "coolGray-400": "#9ca7a1",
+        "coolGray-300": "#dadce1",
         "coolGray-200": "#e4e6eb",
       },
       fontFamily: {

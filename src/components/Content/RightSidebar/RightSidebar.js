@@ -5,22 +5,22 @@ import friendsData from "./Friends.json";
 
 function RightSidebar() {
   return (
-    <div className='sidebar__right__main w-1/5 border-l-2 border-trueGray-700 pl-1'>
+    <div className='sidebar__right__main w-1/5'>
       <div className='sidebar__right__top-container flex flex-row'>
         <div className='sidebar__right__headline flex w-full items-center justify-between border-b-2 border-trueGray-700 pb-2'>
-          <p className='ml-2 text-lg text-white'>Friends</p>
+          <p className='ml-2 text-lg text-trueGray-300'>Friends</p>
           <div className='sidebar_right__headline__options flex-end flex cursor-pointer pr-2'>
             <VideoCall
               fontSize='medium'
-              className='mx-1 text-slate-200 hover:text-trueGray-400'
+              className='mx-1 text-trueGray-300 hover:text-trueGray-400'
             />
             <Search
               fontSize='medium'
-              className='mx-1 text-slate-200 hover:text-trueGray-400'
+              className='mx-1 text-trueGray-300 hover:text-trueGray-400'
             />
             <MoreHoriz
               fontSize='medium'
-              className='mx-1 text-slate-200 hover:text-trueGray-400'
+              className='mx-1 text-trueGray-300 hover:text-trueGray-400'
             />
           </div>
         </div>
@@ -41,14 +41,14 @@ function RightSidebar() {
                   color='success'
                   sx={{
                     [`& .${badgeClasses.dot}`]: {
-                      width: 10,
-                      height: 10,
+                      width: 9,
+                      height: 9,
                       borderRadius: "50%",
                     },
                   }}
                   anchorOrigin={{
-                    vertical: "top",
-                    horizontal: "left",
+                    vertical: "bottom",
+                    horizontal: "right",
                   }}>
                   <img
                     loading='lazy'
@@ -57,7 +57,7 @@ function RightSidebar() {
                   />
                 </Badge>
               </Stack>
-              <p className='ml-3 self-center text-white'>{friend.name}</p>
+              <p className='ml-3 self-center text-coolGray-300'>{friend.name}</p>
             </div>
           ))}
         {/* <p className='mt-3 border-b-2 border-trueGray-700 pb-2 pr-2 text-center text-base text-slate-300'>
@@ -78,14 +78,14 @@ function RightSidebar() {
                   color='error'
                   sx={{
                     [`& .${badgeClasses.dot}`]: {
-                      width: 10,
-                      height: 10,
+                      width: 9,
+                      height: 9,
                       borderRadius: "50%",
                     },
                   }}
                   anchorOrigin={{
-                    vertical: "top",
-                    horizontal: "left",
+                    vertical: "bottom",
+                    horizontal: "right",
                   }}>
                   <img
                     loading='lazy'
@@ -94,9 +94,10 @@ function RightSidebar() {
                   />
                 </Badge>
               </Stack>
-              <p className='ml-3 self-center text-white'>{friend.name}</p>
+              <p className='ml-3 self-center text-coolGray-300'>{friend.name}</p>
             </div>
           ))}
+        <div className='mt-2 border-b-2 border-trueGray-700'></div>
       </div>
     </div>
   );

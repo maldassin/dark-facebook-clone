@@ -7,15 +7,16 @@ import {
   Search,
   StorefrontOutlined,
   SubscriptionsOutlined,
-  SupervisedUserCircle,
+  SupervisedUserCircle
 } from "@mui/icons-material";
-import { Avatar } from "@mui/material";
+import { Avatar, Stack } from "@mui/material";
+import Badge from "@mui/material/Badge";
 import IconButton from "@mui/material/IconButton";
 
 function Header() {
   return (
     // ANCHOR Header
-    <div className='header z-10 overflow-hidden h-100vh sticky inset-0 flex justify-between border-b border-solid border-y-trueGray-700 bg-trueGray-800 py-0'>
+    <div className='header h-100vh sticky inset-0 z-10 flex justify-between overflow-hidden border-b border-solid border-y-trueGray-700 bg-trueGray-800 py-0'>
       {/* ANCHOR Header left */}
       <div className='header__left flex h-10 w-1/5 justify-between self-center'>
         <img
@@ -34,14 +35,7 @@ function Header() {
 
       <div className='header__center flex flex-1 grow justify-center'>
         <div className='header__center__options flex w-4/6'>
-
-
-
-
-
-
-        
-      {/* ANCHOR Header center */}
+          {/* ANCHOR Header center */}
           <div
             className='header__center_option flex h-full w-full cursor-pointer justify-center
            rounded-t-xl border-b-2 border-blue-500 hover:bg-trueGray-700'>
@@ -99,16 +93,38 @@ function Header() {
           <div
             className='test mx-1 self-center rounded-full bg-trueGray-700
           outline-none hover:bg-trueGray-500'>
-            <IconButton size='medium'>
-              <Forum fontSize='medium' className='text-slate-200' />
-            </IconButton>
+            <Stack spacing={2} direction='row'>
+              <Badge
+                overlap='circular'
+                badgeContent='4'
+                color='error'
+                anchorOrigin={{
+                  vertical: "top",
+                  horizontal: "right",
+                }}>
+                <IconButton size='medium'>
+                  <Forum fontSize='medium' className='text-slate-200' />
+                </IconButton>
+              </Badge>
+            </Stack>
           </div>
           <div
             className='test ml-1 mr-3 self-center rounded-full bg-trueGray-700
           outline-none hover:bg-trueGray-500'>
-            <IconButton size='medium'>
-              <Notifications fontSize='medium' className='text-slate-200' />
-            </IconButton>
+            <Stack spacing={2} direction='row'>
+              <Badge
+                overlap='circular'
+                badgeContent='7'
+                color='error'
+                anchorOrigin={{
+                  vertical: "top",
+                  horizontal: "right",
+                }}>
+                <IconButton size='medium'>
+                  <Notifications fontSize='medium' className='text-slate-200' />
+                </IconButton>
+              </Badge>
+            </Stack>
           </div>
           <div className='header_right_info__avatar mr-2 flex cursor-pointer flex-col items-center py-1 text-slate-200'>
             <Avatar
