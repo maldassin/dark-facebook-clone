@@ -14,16 +14,21 @@ function LeftSidebar() {
             height: "42px",
           }}
         />
-        <p className='ml-4 text-lg font-bold text-coolGray-200'>Maen Dassin</p>
+        <p className='ml-4 text-base font-bold text-coolGray-200'>Maen Dassin</p>
       </div>
-      {LeftSidebarData.map((data, index) => (
-        <LeftSidebarRow
-          key={index}
-          icon={data.icon}
-          label={data.label}
-          color={data.color}
-        />
-      ))}
+
+      {LeftSidebarData.map((data, index) =>
+        index == 7 ? (
+          <div className='my-3 border-b-2 border-trueGray-700'></div>
+        ) : (
+          <LeftSidebarRow
+            key={index}
+            icon={data.icon}
+            label={data.label}
+            color={data.color}
+          />
+        )
+      )}
     </div>
   );
 }
