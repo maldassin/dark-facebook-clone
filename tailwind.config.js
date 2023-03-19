@@ -13,6 +13,8 @@ module.exports = {
         "coolGray-400": "#9ca7a1",
         "coolGray-300": "#dadce1",
         "coolGray-200": "#e4e6eb",
+        "blue-500": "#2374e1",
+        "blue-400": "#2e89ff",
       },
       fontFamily: {
         "helvetica-neue": ["Helvetica Neue", "sans-serif"],

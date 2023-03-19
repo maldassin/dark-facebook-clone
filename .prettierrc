@@ -2,8 +2,6 @@
   "tabWidth": 2,
   "useTabs": false,
   "printWidth": 80,
-  "htmlWhitespaceSensitivity": "ignore",
-  "bracketSameLine": true,
   "trailingComma": "es5",
   "semi": true,
   "jsxSingleQuote": true,

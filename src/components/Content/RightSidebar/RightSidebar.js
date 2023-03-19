@@ -32,8 +32,9 @@ function RightSidebar() {
           .map((friend) => (
             <div
               key={friend.name}
-              className='py- flex cursor-pointer items-center self-center rounded-lg py-2 px-2 pl-2
-            hover:bg-trueGray-700'>
+              className='mt-2 flex cursor-pointer items-center self-center rounded-lg py-2 px-2 pl-2
+            hover:bg-trueGray-700'
+            >
               <Stack spacing={2} direction='row'>
                 <Badge
                   overlap='circular'
@@ -49,7 +50,8 @@ function RightSidebar() {
                   anchorOrigin={{
                     vertical: "bottom",
                     horizontal: "right",
-                  }}>
+                  }}
+                >
                   <img
                     loading='lazy'
                     src={friend.image}
@@ -57,20 +59,23 @@ function RightSidebar() {
                   />
                 </Badge>
               </Stack>
-              <p className='ml-3 self-center text-coolGray-300'>{friend.name}</p>
+              <p className='ml-3 self-center text-coolGray-300'>
+                {friend.name}
+              </p>
             </div>
           ))}
         {/* <p className='mt-3 border-b-2 border-trueGray-700 pb-2 pr-2 text-center text-base text-slate-300'>
           offline{" "}
         </p> */}
-        <div className='my-1 border-b-2 border-trueGray-700'></div>
+        <div className='my-3 border-b-2 border-trueGray-700'></div>
         {friendsData
           .filter((friend) => friend.status.includes("offline"))
           .map((friend) => (
             <div
               key={friend.name}
-              className='py- flex cursor-pointer items-center self-center rounded-lg py-2 px-2 pl-2
-            hover:bg-trueGray-700'>
+              className='flex cursor-pointer items-center self-center rounded-lg py-2 px-2 pl-2
+            hover:bg-trueGray-700'
+            >
               <Stack spacing={2} direction='row'>
                 <Badge
                   overlap='circular'
@@ -86,7 +91,8 @@ function RightSidebar() {
                   anchorOrigin={{
                     vertical: "bottom",
                     horizontal: "right",
-                  }}>
+                  }}
+                >
                   <img
                     loading='lazy'
                     src={friend.image}
@@ -94,10 +100,11 @@ function RightSidebar() {
                   />
                 </Badge>
               </Stack>
-              <p className='ml-3 self-center text-coolGray-300'>{friend.name}</p>
+              <p className='ml-3 self-center text-coolGray-300'>
+                {friend.name}
+              </p>
             </div>
           ))}
-        <div className='mt-2 border-b-2 border-trueGray-700'></div>
       </div>
     </div>
   );
