@@ -15,7 +15,7 @@ import IconButton from "@mui/material/IconButton";
 function Header() {
   return (
     // ANCHOR Header
-    <div className='header z-100 h-100vh sticky inset-0 flex justify-between border-b border-solid border-y-trueGray-700 bg-trueGray-800 py-0'>
+    <div className='header z-10 overflow-hidden h-100vh sticky inset-0 flex justify-between border-b border-solid border-y-trueGray-700 bg-trueGray-800 py-0'>
       {/* ANCHOR Header left */}
       <div className='header__left flex h-10 w-1/5 justify-between self-center'>
         <img
@@ -118,7 +118,6 @@ function Header() {
                 height: "40px",
               }}
             />
-            {/* <p className='text-sm'>Maen Dassin</p> */}
           </div>
         </div>
       </div>
