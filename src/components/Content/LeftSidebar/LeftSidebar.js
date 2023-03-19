@@ -1,10 +1,10 @@
 import { Avatar } from "@mui/material";
-import SidebarRow from "./SidebarRow";
+import LeftSidebarRow from "./LeftSidebarRow";
 import LeftSidebarData from "./LeftSidebarData";
 
 function LeftSidebar() {
   return (
-    <div className='sidebar__left justif flex w-1/5 flex-col border-r-2 border-trueGray-700'>
+    <div className='sidebar__left justif flex w-1/5 flex-col border-trueGray-700'>
       <div className='my-2 flex cursor-pointer items-center rounded-l-xl py-2 pl-3 text-sm text-slate-200 hover:bg-trueGray-700'>
         <Avatar
           className=''
@@ -14,10 +14,10 @@ function LeftSidebar() {
             height: "42px",
           }}
         />
-        <p className='ml-4 text-base font-bold text-white'>Maen Dassin</p>
+        <p className='ml-4 text-lg font-bold text-coolGray-200'>Maen Dassin</p>
       </div>
       {LeftSidebarData.map((data, index) => (
-        <SidebarRow
+        <LeftSidebarRow
           key={index}
           icon={data.icon}
           label={data.label}

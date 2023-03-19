@@ -38,15 +38,18 @@ function Header() {
         <div className='header__center__options flex w-4/6'>
           {/* ANCHOR Header center */}
           <div
-            className='header__center_option rounded-t-xlhover:bg-trueGray-700 mx-2 flex h-full w-full cursor-pointer
-           justify-center'
-            style={{ borderBottom: "3.5px solid #3B82F6" }}
+            className='header__center_option mx-2 flex w-full cursor-pointer justify-center rounded-t-xl border border-none
+           hover:bg-trueGray-700'
+            style={{
+              borderBottom: "3.5px solid #3B82F6",
+            }}
           >
             <Home
               className='active: self-center text-blue-500'
               fontSize='large'
             />
           </div>
+          {/* </div> */}
           <div
             className='header__center_option mx-2 flex h-full w-full cursor-pointer justify-center rounded-b-xl rounded-t-xl border border-none
            hover:bg-trueGray-700'
@@ -76,7 +79,7 @@ function Header() {
             />
           </div>
           <div
-            className='header__center_option border-none mx-2 flex h-full w-full cursor-pointer justify-center rounded-b-xl rounded-t-xl border 
+            className='header__center_option mx-2 flex h-full w-full cursor-pointer justify-center rounded-b-xl rounded-t-xl border border-none 
            hover:bg-trueGray-700'
           >
             <SupervisedUserCircle
@@ -119,7 +122,7 @@ function Header() {
             </Stack>
           </div>
           <div
-            className='test ml-1 mr-3 self-center rounded-full bg-trueGray-700
+            className='test ml-1 mr-2 self-center rounded-full bg-trueGray-700
           outline-none hover:bg-trueGray-500'
           >
             <Stack spacing={2} direction='row'>
