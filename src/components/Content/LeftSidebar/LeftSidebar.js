@@ -4,22 +4,22 @@ import LeftSidebarData from "./LeftSidebarData";
 
 function LeftSidebar() {
   return (
-    <div className='sidebar__left justif flex w-1/5 flex-col border-trueGray-700'>
+    <div className='sidebar__left flex w-[23%] flex-col border-trueGray-700'>
       <div className='my-2 flex cursor-pointer items-center rounded-l-xl py-2 pl-3 text-sm text-slate-200 hover:bg-trueGray-700'>
         <Avatar
-          className=''
           src={"./Me2.jpg"}
           style={{
-            width: "42px",
-            height: "42px",
+            width: "36px",
+            height: "36px",
           }}
         />
-        <p className='ml-4 text-base font-bold text-coolGray-200'>Maen Dassin</p>
+
+        <p className='pl-2 text-sm font-medium text-slate-200'>Maen Dassin</p>
       </div>
 
       {LeftSidebarData.map((data, index) =>
         index == 7 ? (
-          <div className='my-3 border-b-2 border-trueGray-700'></div>
+          <div className='my-2 border-b-2 border-trueGray-700'></div>
         ) : (
           <LeftSidebarRow
             key={index}
