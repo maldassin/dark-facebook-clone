@@ -1,6 +1,6 @@
 import {
   Apps,
-  Flag,
+  FlagOutlined,
   Forum,
   Home,
   Notifications,
@@ -16,7 +16,7 @@ import IconButton from "@mui/material/IconButton";
 function Header() {
   return (
     // ANCHOR Header
-    <div className='header h-100vh sticky inset-0 z-10 flex justify-between overflow-hidden border-b border-solid border-y-trueGray-700 bg-trueGray-800'>
+    <div className='header sticky inset-0 z-10 flex justify-between overflow-hidden border-b border-solid border-y-trueGray-700 bg-trueGray-800 pt-1'>
       {/* ANCHOR Header left */}
       <div className='header__left flex h-10 w-1/5 justify-between self-center'>
         <img
@@ -54,7 +54,7 @@ function Header() {
             className='header__center_option mx-2 flex h-full w-full cursor-pointer justify-center rounded-b-xl rounded-t-xl border border-none
            hover:bg-trueGray-700'
           >
-            <Flag
+            <FlagOutlined
               className='self-center 
               text-trueGray-400'
               fontSize='large'
@@ -91,7 +91,7 @@ function Header() {
       </div>
 
       {/* ANCHOR Header right */}
-      <div className='header__right flex w-1/6 flex-row-reverse'>
+      <div className='header__right flex w-1/5 flex-row-reverse'>
         <div className='header__right__info flex w-full justify-end pt-1 pr-2'>
           <div
             className='test mr-1 self-center rounded-full bg-trueGray-700
