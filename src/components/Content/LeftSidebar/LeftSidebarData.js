@@ -49,7 +49,7 @@ const sidebarData = [
   {
     icon: <Stars />,
     label: "Favorites",
-    color: "gold",
+    color: "orange",
   },
   {
     icon: <Subscriptions />,
