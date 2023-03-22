@@ -5,7 +5,7 @@ import friendsData from "./RightSidebarData.json";
 
 function RightSidebar() {
   return (
-    <div className='sidebar__right__main w-1/5'>
+    <div className='sidebar__right__main w-[23%]'>
       <div className='sidebar__right__top-container flex flex-row'>
         <div className='sidebar__right__headline flex w-full items-center justify-between pb-2'>
           <p className='ml-2 text-lg text-trueGray-300'>Birthdays</p>
@@ -28,9 +28,11 @@ function RightSidebar() {
           />
           <p className='text-base text-coolGray-300'>
             <span className='inline-block font-semibold'>Qais&nbsp;</span>
-            and<span className='inline-block font-semibold'>
+            and
+            <span className='inline-block font-semibold'>
               &nbsp;Manal&nbsp;{" "}
-            </span>have birthdays today!
+            </span>
+            have birthdays today!
           </p>
         </div>
       </div>
@@ -54,7 +56,9 @@ function RightSidebar() {
         </div>
       </div>
       <div className='sidebar__right__friends'>
-        {/* <p className='mt-2 pb-2 pr-4 text-center text-base text-slate-300'>online</p> */}
+        <p className='mt-2 pb-2 pr-4 text-center text-base text-slate-300'>
+          online
+        </p>
         {friendsData
           .filter((friend) => friend.status.includes("online"))
           .map((friend) => (
@@ -92,9 +96,9 @@ function RightSidebar() {
               </p>
             </div>
           ))}
-        {/* <p className='mt-3 border-b-2 border-trueGray-700 pb-2 pr-2 text-center text-base text-slate-300'>
+        <p className='mt-3 pb-1 pr-2 text-center text-base text-slate-300'>
           offline{" "}
-        </p> */}
+        </p>
         <div className='my-3 border-b-2 border-trueGray-700'></div>
         {friendsData
           .filter((friend) => friend.status.includes("offline"))
